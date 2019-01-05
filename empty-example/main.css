@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Candal');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: green;
+    font-family: 'Bowlby One', cursive;
+}
+#new-year{
+    font-size: 150px;
+    font: bold;
+}
+.timer{
+    font-size: 100px;
+    
+}
+.timer-content{
+    font-size: 48px;
+}
+#current-time-zone{
+    font-size: 12px;
+}
